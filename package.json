@@ -1,0 +1,36 @@
+{
+  "name": "@ordy/order-pdf",
+  "version": "0.1.0",
+  "description": "Generate order PDF documents — Node and NativeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "order-pdf": "./bin/order-pdf.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "src",
+    "test",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "npm run build && node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LeonardoBAV/ordy-order-pdf.git"
+  },
+  "dependencies": {
+    "pdfmake": "^0.2.20"
+  },
+  "devDependencies": {
+    "typescript": "~5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Pedido",
+  "client": "Cliente",
+  "buyer": "Comprador",
+  "payment": "Forma de pagamento",
+  "notes": "Observações",
+  "total": "Total",
+  "signature": "Assinatura",
+  "event": "Evento",
+  "date": "Data",
+  "statusLabel": "Status",
+  "itemsHeader": {
+    "product": "Produto",
+    "qty": "Qtd",
+    "unit": "Unit.",
+    "total": "Total"
+  },
+  "status": {
+    "pending": "Aberto",
+    "completed": "Concluído",
+    "cancelled": "Cancelado"
+  },
+  "filename": "pedido-{orderNumber}.pdf"
+}

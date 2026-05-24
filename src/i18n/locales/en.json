@@ -1,0 +1,24 @@
+{
+  "title": "Order",
+  "client": "Client",
+  "buyer": "Buyer",
+  "payment": "Payment method",
+  "notes": "Notes",
+  "total": "Total",
+  "signature": "Signature",
+  "event": "Event",
+  "date": "Date",
+  "statusLabel": "Status",
+  "itemsHeader": {
+    "product": "Product",
+    "qty": "Qty",
+    "unit": "Unit",
+    "total": "Total"
+  },
+  "status": {
+    "pending": "Open",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "filename": "order-{orderNumber}.pdf"
+}

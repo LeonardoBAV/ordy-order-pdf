@@ -1,0 +1,27 @@
+{
+  "locale": "en",
+  "meta": {
+    "orderNumber": 456,
+    "createdAt": "2026-05-23T14:30:00.000Z",
+    "status": "pending",
+    "eventName": "Trade Show NYC"
+  },
+  "client": {
+    "fantasyName": "Sample Store",
+    "corporateName": "Sample LLC",
+    "cpfCnpj": "12345678901",
+    "phone": "+1 555 0100",
+    "buyerName": "John Doe"
+  },
+  "items": [
+    {
+      "sku": "SKU-EN-1",
+      "name": "Product One",
+      "category": "Cat A",
+      "qty": 3,
+      "unitPrice": 9.99
+    }
+  ],
+  "paymentMethod": "Credit card",
+  "notes": "Leave at reception"
+}
