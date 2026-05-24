@@ -1,6 +1,6 @@
 {
   "name": "@ordy/order-pdf",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate order PDF documents — Node and NativeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -27,6 +27,7 @@
     "pdfmake": "^0.2.20"
   },
   "devDependencies": {
+    "@types/node": "^20.0.0",
     "typescript": "~5.4.0"
   },
   "engines": {
